@@ -7,7 +7,6 @@ class HomePage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text("ページ(0)")),
         body: Center(
-            /*
           child: TextButton(
             child: Text("Firstページへ遷移する"),
             onPressed: () {
@@ -19,7 +18,7 @@ class HomePage extends StatelessWidget {
                       builder: (context) => FirstPage()));
             },
           ),
-          */
+          /*
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -85,6 +84,7 @@ class HomePage extends StatelessWidget {
               label: Text('.iconコンストラクタ'),
             ),
           ],
-        )));
+        )*/
+        ));
   }
 }
